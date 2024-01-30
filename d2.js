@@ -1,0 +1,1 @@
+$(document).bind("keydown",function(t){if(t.ctrlKey&&83==t.which)return t.preventDefault(),!1}),document.addEventListener("contextmenu",t=>t.preventDefault()),document.onkeydown=function(t){return!t.ctrlKey||67!==t.keyCode&&86!==t.keyCode&&85!==t.keyCode&&117!==t.keyCode},$(document).keypress("u",function(t){return!t.ctrlKey});
